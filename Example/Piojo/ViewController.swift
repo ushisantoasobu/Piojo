@@ -7,8 +7,12 @@
 //
 
 import UIKit
+import Piojo
 
 class ViewController: UIViewController {
+
+    @IBOutlet weak var label: UILabel!
+    @IBOutlet weak var textField: UITextField!
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -18,6 +22,11 @@ class ViewController: UIViewController {
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
+    }
+
+
+    @IBAction func btnTapped(sender: AnyObject) {
+        self.label.pj_animate(self.textField)
     }
 
 }

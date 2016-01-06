@@ -1,0 +1,12 @@
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+target 'Piojo_Example', :exclusive => true do
+  pod "Piojo", :path => "../"
+end
+
+target 'Piojo_Tests', :exclusive => true do
+  pod "Piojo", :path => "../"
+
+  
+end

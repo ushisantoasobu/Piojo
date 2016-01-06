@@ -1,0 +1,6 @@
+framework module Piojo {
+  umbrella header "Piojo-umbrella.h"
+
+  export *
+  module * { export * }
+}

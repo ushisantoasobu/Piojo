@@ -1,0 +1,14 @@
+PODS:
+  - Piojo (0.1.0)
+
+DEPENDENCIES:
+  - Piojo (from `../`)
+
+EXTERNAL SOURCES:
+  Piojo:
+    :path: ../
+
+SPEC CHECKSUMS:
+  Piojo: 802bc5be3b422400eee5096cc320230584d4e230
+
+COCOAPODS: 0.38.2
